@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+/*section header*/
+.main-header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-header .list {
+	width: 50%;
+	display: flex;
+}
+.main-header .list > a > .home-list {
+	background-color: #28df99;
+	color: #fff;
+	/*width: 130px;*/
+	padding: 15px;
+	border-radius: 35px;
+}
+.main-header .list > a {
+	font-size: 23px;
+	text-decoration: none;
+	color: #28df99;
+	font-weight: bold;
+	/*flexbox*/
+	flex-grow: 1;
+}
+
+/*section Home*/
+
+.home {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.home .text-home {
+	width: 600px;
+	text-align: justify;
+}
+
+.home .text-home > .btns > .btn-home {
+	margin-top: 30px;
+	margin-left: 10px;
+	padding: 15px;
+	border: none;
+	outline: none;
+	background-color: #28df99;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 35px;
+	width: 120px;
+}
+.home .text-home > .title-home {
+	font-size: 60px;
+	color: #ea5455;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.home .btns {
+	text-align: center;
+}
+/*section About*/
+
+.about{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about .text-about {
+	width: 600px;
+	text-align: justify;
+}
+
+.about .text-about > .title-about {
+	font-size: 60px;
+	color: #ea5455;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+/*section services*/
+
+.services {
+	display: flex;
+	margin-top: 60px;
+}
+
+.services .card-services{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between
+}
+
+.services .services-btn{
+	margin-top: 30px;
+	margin-left: 10px;
+	padding: 15px;
+	border: none;
+	outline: none;
+	background-color: #28df99;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 35px;
+	width: 150px;
+	margin: auto;
+}
+
+.services .card-services .services-img{
+	margin: auto;
+}
+
+.title-services{
+	font-size: 80px;
+	color: #ea5455;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+/*section blogs*/
+
+.blog{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 80px;
+}
+
+.blog .text-blog .title-blog{
+	font-size: 60px;
+	color: #ea5455;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.blog .text-blog{
+	width: 600px;
+	text-align: justify;
+}
+
+/*section contact*/
+
+.contact{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 80px;
+	margin: auto;
+}
+
+.contact .contact-btn{
+	margin-top: 30px;
+	margin-left: 10px;
+	padding: 15px;
+	border: none;
+	outline: none;
+	background-color: #ea5455;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 35px;
+	width: 120px;
+	margin: auto;
+}
+.contact .form-contact{
+	width: 250px;
+	text-align: justify;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.contact .form-contact{
+	background-color: #28df99;
+	border-radius: 35px;
+	padding: 30px;
+}
+
+.contact .form-contact > input{
+	border-radius: 5px;
+	padding-left: 3%;
+}
+
+.contact .form-contact > textarea{
+	border-radius: 5px;
+	padding-left: 3%;
+}
